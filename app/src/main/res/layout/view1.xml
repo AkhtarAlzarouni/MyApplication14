@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_margin="9dp"
+    android:layout_height="400dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_h"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Txt"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Code Academy"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+      >
+
+        <TextView
+            android:id="@+id/qus"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#ff3d00"
+            android:layout_height="wrap_content"
+            android:text="The course topics have been covered in sufficient detail"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/Txt2"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#78909c"
+            android:layout_height="wrap_content"
+            android:text="Rate from one to five"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/Txt4"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#78909c"
+            android:layout_height="wrap_content"
+            android:text="Add notes"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sh1"/>
+
+        <Spinner
+            android:id="@+id/sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
